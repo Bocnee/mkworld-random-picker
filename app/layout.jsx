@@ -1,9 +1,8 @@
 import Head from "next/head";
 
-/* // j'ai préparé le terrain  pour le header et le footer
 import Header from "./components/Header";
 import Footer from "./components/Footer";
- */
+
 import "./styles/base/globals.css";
 
 export const metadata = {
@@ -20,9 +19,9 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body>
-        {/*     <Header /> */}
+        <Header />
         {children}
-        {/*     <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
